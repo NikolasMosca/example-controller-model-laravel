@@ -186,7 +186,6 @@ class Conference
             'title' => $optional['title'],
             'price' => $optional['price']
         ]);
-        return $id;
     }
 
     private function deleteOptionals($id, $updatedIds) {
